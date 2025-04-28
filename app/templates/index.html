@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Product</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --text-color: #343a40;
+      --container-bg: #ffffff;
+      --input-bg: #ffffff;
+      --button-bg: #007bff;
+      --button-hover: #0056b3;
+      --navbar-bg: #343a40;
+      --navbar-text-color: #ffffff;
+      --border-radius: 8px;
+      --box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+      --transition: all 0.3s ease;
+    }
+
+    body.dark {
+      --bg-color: #121212;
+      --text-color: #f1f1f1;
+      --container-bg: #1c1c1c;
+      --input-bg: #333;
+      --button-bg: #00bfae;
+      --button-hover: #008e82;
+      --navbar-bg: #212121;
+      --navbar-text-color: #ffffff;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .navbar {
+      background-color: var(--navbar-bg);
+      color: var(--navbar-text-color);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--box-shadow);
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a {
+      color: var(--navbar-text-color);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: var(--button-bg);
+    }
+
+    .toggle-switch {
+      background-color: var(--button-bg);
+      border: none;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .toggle-switch:hover {
+      background-color: var(--button-hover);
+    }
+
+    .container {
+      background-color: var(--container-bg);
+      padding: 40px 30px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+      margin: 50px auto;
+      transition: background-color 0.3s ease;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--text-color);
+    }
+
+    p.helper {
+      font-size: 14px;
+      color: #888;
+      margin-top: -10px;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: 600;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: var(--text-color);
+    }
+
+    input[type="text"],
+    input[type="file"] {
+      width: 100%;
+      padding: 12px;
+      background-color: var(--input-bg);
+      border: 1px solid #ccc;
+      border-radius: var(--border-radius);
+      color: var(--text-color);
+      box-sizing: border-box;
+      font-size: 16px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="file"]:focus {
+      border-color: var(--button-bg);
+      outline: none;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: var(--button-bg);
+      border: none;
+      color: white;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--button-hover);
+    }
+
+    #preview {
+      margin-top: 15px;
+      max-width: 100%;
+      border-radius: var(--border-radius);
+      display: none;
+      border: 2px solid #ddd;
+    }
+
+    .navbar a,
+    .toggle-switch {
+      font-size: 16px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div>
+      <a href="/"><i class="fas fa-home"></i> Home</a>
+      <a href="/report"><i class="fas fa-info-circle"></i> Report</a>
+      <a href="/report"><i class="fas fa-envelope"></i> Contact Us</a>
+      <a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a>
+      <a href="/diet"><i class="fas fa-calendar-alt"></i> Diet Plan</a>
+    </div>
+    <button class="toggle-switch" onclick="toggleDarkMode()">
+      <i class="fas fa-moon"></i> Toggle Dark Mode
+    </button>
+  </div>
+
+  <div class="container">
+    <h2>Search Product</h2>
+    <p class="helper">Use one method below to find a product</p>
+
+    <form method="POST" action="{{ url_for('search') }}" enctype="multipart/form-data">
+      <label for="barcode"><i class="fas fa-barcode"></i> Scan or Enter Barcode:</label>
+      <input type="text" name="barcode" id="barcode">
+
+      <label for="image"><i class="fas fa-camera"></i> Upload Barcode Image:</label>
+      <input type="file" name="image" id="image" accept="image/*" onchange="showPreview(event)">
+      <img id="preview" alt="Image Preview"/>
+
+      <label for="product_name"><i class="fas fa-search"></i> Search by Product Name:</label>
+      <input type="text" name="product_name" id="product_name" placeholder="e.g. KitKat, Milk">
+
+      <button type="submit"><i class="fas fa-search"></i> Search</button>
+    </form>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+    function showPreview(event) {
+      const file = event.target.files[0];
+      const preview = document.getElementById('preview');
+
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          preview.src = e.target.result;
+          preview.style.display = 'block';
+        }
+        reader.readAsDataURL(file);
+      } else {
+        preview.style.display = 'none';
+      }
+    }
+  </script>
+<!-- Chatbot Widget -->
+<div id="chatbot-widget">
+  <div id="chatbot-button">
+    <img src="/static/chaticon.png" alt="Chatbot" />
+  </div>
+
+  <div id="chatbot-window" class="hidden">
+    <div id="chatbot-header">
+      Polaris
+      <span id="close-chatbot">✖</span>
+    </div>
+    <div id="chatbot-messages"></div>
+    <form id="chatbot-form">
+      <input type="text" id="chatbot-input" placeholder="Type a message..." autocomplete="off" />
+      <button type="submit">➤</button>
+    </form>
+  </div>
+</div>
+
+<!-- Chatbot Styles & Script -->
+<link rel="stylesheet" href="/static/chatbot.css">
+<script src="/static/chatbot.js" defer></script>
+</body>
+</html>

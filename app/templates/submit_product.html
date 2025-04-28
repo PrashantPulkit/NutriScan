@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Product</title>
+    <style>
+        /* Root colors for cohesive styling */
+        :root {
+            --primary-color: #2874f0; /* Main color */
+            --secondary-color: #28a745; /* Action button color */
+            --bg-light: #f8f9fa; /* Light background color */
+            --bg-card: #fff; /* Card background */
+            --text-dark: #333; /* Dark text */
+            --text-light: #fff; /* Light text */
+            --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadow for card */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 20px;
+            color: var(--text-dark);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            margin: auto;
+            background: var(--bg-card);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px var(--shadow-light);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            color: var(--text-dark);
+            font-weight: bold;
+        }
+
+        input, select, button {
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"], select {
+            background-color: #f8f9fa;
+        }
+
+        input[type="file"] {
+            background-color: #fff;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--primary-color);
+        }
+
+        button {
+            background-color: var(--secondary-color);
+            color: var(--text-light);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Submit New Product</h2>
+    <form action="/submit_product" method="post" enctype="multipart/form-data">
+        
+        <label for="product_name">Product Name</label>
+        <input type="text" name="product_name" id="product_name" required>
+
+        <label for="brand_name">Brand Name</label>
+        <input type="text" name="brand_name" id="brand_name" required>
+
+        <label for="category">Category</label>
+        <input type="text" name="category" id="category" required>
+
+        <label for="barcode_photo">Barcode Photo</label>
+        <input type="file" name="barcode_photo" id="barcode_photo" accept="image/*" required>
+
+        <label for="ingredient_photo">Ingredient Label Photo</label>
+        <input type="file" name="ingredient_photo" id="ingredient_photo" accept="image/*" required>
+
+        <button type="submit">Submit Product</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+flask
+requests
+pyzbar
+Pillow
+mysql-connector-python

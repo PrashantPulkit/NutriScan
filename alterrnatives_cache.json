@@ -1,0 +1,973 @@
+{
+  "en:corn-chips": [
+    {
+      "name": "Mios! Horneados Tomillo y lim\u00f3n",
+      "brand": "Risi",
+      "barcode": "8411859560010",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sea Salt Tortilla Chips",
+      "brand": "Siete",
+      "barcode": "0851769007096",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Corn Chips (Tasty Cheese)",
+      "brand": "Mexicano",
+      "barcode": "9415684000214",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Serrano cholli & yucatan honey",
+      "brand": "Manomasa",
+      "barcode": "5017764003319",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Blue Corn",
+      "brand": "Sprouts",
+      "barcode": "0646670314230",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Blue Corn Tortilla Chips",
+      "brand": "La Tolteca",
+      "barcode": "0042029111558",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bite size tortilla chips",
+      "brand": "Tostitos",
+      "barcode": "0028400004619",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Yellow Chips Corn Tortilla Chips",
+      "brand": "Garden of Eatin'",
+      "barcode": "0015839005614",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Green lemon & Pink peppercorn",
+      "brand": "Manomasa",
+      "barcode": "5017764003272",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bio Tortilla Chips BBQ Paprika",
+      "brand": "Naturaplan",
+      "barcode": "7624841036788",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Unsalted Tortilla Chips, Organic",
+      "brand": "Que Pasa \u2022 Richmond BC \ud83c\udde8\ud83c\udde6",
+      "barcode": "0068826176026",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Pufuletti",
+      "brand": "Naschmonster",
+      "barcode": "4260073358965",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Good & gather organic blue corn tortilla chips",
+      "brand": "Unknown",
+      "barcode": "0085239042694",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Crispy rounds tortilla chips",
+      "brand": "Tostitos",
+      "barcode": "0028400165624",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tortilla Chips Ancient Grains",
+      "brand": "Que Pasa",
+      "barcode": "0068826045155",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tygryski",
+      "brand": "TBM,Tygryski",
+      "barcode": "5908221108213",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Multigrain tortilla chips",
+      "brand": "Food Should Taste Good",
+      "barcode": "0021908812663",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tri Flavour Tortilla Chips",
+      "brand": "Tri Flavour",
+      "barcode": "0628130003007",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Blue Chips No Salt Added Corn Tortilla Chips",
+      "brand": "Garden Of Eatin\u2019",
+      "barcode": "0015839097121",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tortilla de Maiz Azul",
+      "brand": "Unknown",
+      "barcode": "4260696240067",
+      "nutriscore": "b"
+    }
+  ],
+  "en:candies": [
+    {
+      "name": "Honey dry roasted peanuts",
+      "brand": "Drug Mart",
+      "barcode": "0093351032028",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Jelly belly sparkling water",
+      "brand": "Unknown",
+      "barcode": "0810033720017",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Smart Sweets",
+      "brand": "Smart Sweets",
+      "barcode": "0669809222404",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Blasterz Mega Sour Candy Spray Raspberry Flavour",
+      "brand": "Unknown",
+      "barcode": "5026418050388",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Arlequin Original",
+      "brand": "Lutti",
+      "barcode": "3116740032472",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Smart Sweets Peach Rings",
+      "brand": "Smart Sweets",
+      "barcode": "0669809200549",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Jelly fruit",
+      "brand": "Unknown",
+      "barcode": "0745853141097",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Smart sweets sour blast buddies",
+      "brand": "Smart Sweets",
+      "barcode": "0669809200402",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sourmelon Bites",
+      "brand": "Smart Sweets",
+      "barcode": "0669809100801",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Mentos Gum Aqua Kiss Strawberry-mandarin",
+      "brand": "Mentos",
+      "barcode": "80759782",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sweet Fish",
+      "brand": "Smart sweets",
+      "barcode": "0669809222206",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Red twists",
+      "brand": "Smart Sweets",
+      "barcode": "0669809200709",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Les Papillotes iconiques guimauves Noir & Lait",
+      "brand": "R\u00c9VILLON",
+      "barcode": "3110846202296",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Husten-Bonbons mit 5 Vitaminen",
+      "brand": "Pro Dimi Pharma, Vitalis",
+      "barcode": "4061458157223",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Yocrunch m&m's vanilla low fat yogurt",
+      "brand": "Yocrunch,  The Yocrunch Company  Llc",
+      "barcode": "0046675013518",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Peach Rings",
+      "brand": "Smart Sweets",
+      "barcode": "0669809100542",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Knabber Esspapier Bunt",
+      "brand": "K\u00fcchle",
+      "barcode": "4035600919113",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Cola Gummies",
+      "brand": "Smart Sweets",
+      "barcode": "0669809101709",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sweet Fish",
+      "brand": "SmartSweets",
+      "barcode": "0669809200204",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Husten-Bonbons mit 5 Vitaminen",
+      "brand": "Pro Dimi Pharma, Vitalis",
+      "barcode": "4061458157223",
+      "nutriscore": "b"
+    }
+  ],
+  "sodas": [
+    
+    {
+      "name": "Freeway Cola",
+      "brand": "Lidl",
+      "barcode": "20028350",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Fit Soda",
+      "brand": "Fit Soda",
+      "barcode": "0860002964300",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Upfront eiwit limonade",
+      "brand": "",
+      "barcode": "8720986892650",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Mist UPPBYGGING",
+      "brand": "Mist",
+      "barcode": "5690542007626",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Protein Lemonade Lemon",
+      "brand": "XXL Nutrition",
+      "barcode": "8719881036696",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Creamy root beer float",
+      "brand": "",
+      "barcode": "0637480001694",
+      "nutriscore": "b"
+    },
+    {
+      "name": "\u0e25\u0e34\u0e49\u0e19\u0e08\u0e35\u0e48\u0e42\u0e0b\u0e14\u0e32",
+      "brand": "IKEA,\u0e2d\u0e35\u0e40\u0e04\u0e35\u0e22",
+      "barcode": "8857126606225",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Orangenlimonade",
+      "brand": "Unknown",
+      "barcode": "4005012183761",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sonak Lemonade",
+      "brand": "",
+      "barcode": "5290101001340",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Citron restauration",
+      "brand": "Pulco",
+      "barcode": "3225355150706",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Orange fit",
+      "brand": "T\u00f6nissteiner",
+      "barcode": "4002968001651",
+      "nutriscore": "b"
+    },
+    {
+      "name": "caf\u00e9 de algarroba",
+      "brand": "sabores autoctonos",
+      "barcode": "0720665957104",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Mets cola",
+      "brand": "KIRIN",
+      "barcode": "4909411089344",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Refresco de manzana y lim\u00f3n ecol\u00f3gico",
+      "brand": "Free.sh",
+      "barcode": "8032077011681",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Rivella",
+      "brand": "Rivella",
+      "barcode": "8715600242553",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Fassbrause Zitrone",
+      "brand": "Stauder",
+      "barcode": "4002453001654",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bionade",
+      "brand": "Bionade",
+      "barcode": "4014472648109",
+      "nutriscore": "b"
+    },
+    {
+      "name": "bos vruchten vruchtenlimonade met appel",
+      "brand": "Plus",
+      "barcode": "8710624497835",
+      "nutriscore": "b"
+    },
+    {
+      "name": "bois gaz mirinda pomme 50cl pet",
+      "brand": "Mirinda",
+      "barcode": "6111252420424",
+      "nutriscore": "b"
+    }
+  ],
+  "en:canned-fishes": [
+    {
+      "name": "Navy Beans",
+      "brand": "Signature Select",
+      "barcode": "0021130501540",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Tesco Tuna Chunks In Brine 3 Packs X",
+      "brand": "Tesco",
+      "barcode": "8858893914131",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Almejas blancas de las r\u00edas gallegas al natural",
+      "brand": "",
+      "barcode": "8410721112388",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Tuna",
+      "brand": "Morrisons",
+      "barcode": "5010525004617",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Coda di tonno pinnegialle decongelato",
+      "brand": "Fiorital",
+      "barcode": "8005634002576",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Thon atlantique Listao des a\u00e7ores",
+      "brand": "Fish 4 Ever",
+      "barcode": "5034210521906",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Skipjack tuna in brine",
+      "brand": "Kirkland Signature",
+      "barcode": "0096619560271",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Solid White Tuna, Low Sodium Albacore in Water",
+      "brand": "Clover Leaf",
+      "barcode": "0061362432205",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Skipjack chunk light tuna in water",
+      "brand": "Northern Catch",
+      "barcode": "4099100095746",
+      "nutriscore": "a"
+    },
+    {
+      "name": "skip jack tuna chunks",
+      "brand": "Asda",
+      "barcode": "5054781874836",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Skip jack wild tuna, skip jack",
+      "brand": "Wild Planet",
+      "barcode": "0829696000718",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Thon blanc \u00e9mi\u00e9tt\u00e9",
+      "brand": "Clover leaf",
+      "barcode": "0061362432403",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Portview Tuna Lemon & Pepper",
+      "brand": "Portview",
+      "barcode": "4088700065624",
+      "nutriscore": "a"
+    },
+    {
+      "name": "ja Thunfisch Filets Oliven\u00f6l",
+      "brand": "ja",
+      "barcode": "26079394",
+      "nutriscore": "a"
+    },
+    {
+      "name": "At\u00fan claro al natural bajo en sal",
+      "brand": "Calvo",
+      "barcode": "8410090375421",
+      "nutriscore": "a"
+    },
+    {
+      "name": "At\u00fan en aceite de girasol",
+      "brand": "Van Camp's",
+      "barcode": "0722008313318",
+      "nutriscore": "a"
+    },
+    {
+      "name": "At\u00fan Dolores aleta amarilla con arroz",
+      "brand": "At\u00fan Dolores",
+      "barcode": "7501045402741",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Drcen\u00fd tu\u0148\u00e1k ve vlastn\u00ed \u0161\u0165\u00e1v\u011b",
+      "brand": "La Perla",
+      "barcode": "4006795308037",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Filetti di sgombro al naturale",
+      "brand": "Delicius",
+      "barcode": "8006460022103",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Chunk White Albacore Tuna In Water",
+      "brand": "Starkist Selects",
+      "barcode": "00806800",
+      "nutriscore": "a"
+    }
+  ],
+  "en:beverages": [
+    {
+      "name": "Lupi Coffee",
+      "brand": "Lupi Coffee",
+      "barcode": "3770029889029",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tisanes de sauge bio - Romon Nature",
+      "brand": "Romon Nature",
+      "barcode": "3388742800117",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Fleurs de gwozey",
+      "brand": "saveurs toniks",
+      "barcode": "3000013060005",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Florette - Basilic 11g",
+      "brand": "Florette",
+      "barcode": "3280220918003",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Graines De Chia Bio - 500 GR",
+      "brand": "Planete Au Naturel",
+      "barcode": "3700216242597",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Orzo per moka",
+      "brand": "Pam",
+      "barcode": "8004263665084",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Camomile",
+      "brand": "Malwa",
+      "barcode": "5902781000376",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tremo\u00e7o extra",
+      "brand": "Azeifruto",
+      "barcode": "9600340270593",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Organic smoothie blend",
+      "brand": "Unknown",
+      "barcode": "0688267174810",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Vita-J, Vitamin Juice, Naturally Sweetened Nutritional Diet Juice Beverage From Concentrate, Pomegranate With Blueberry",
+      "brand": "Raphah Inc.",
+      "barcode": "0721609000139",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Esprit de bien \u00eatre",
+      "brand": "Th\u00e8smao",
+      "barcode": "0638097363748",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Menta carrefour",
+      "brand": "Carrefour BIO, Carrefour",
+      "barcode": "8431876106534",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Pure peppermint leaves",
+      "brand": "Dilmah",
+      "barcode": "9312631836400",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Poleo Menta",
+      "brand": "Coviran",
+      "barcode": "8422823080113",
+      "nutriscore": "b"
+    },
+    {
+      "name": "8718989&quot;006266&gt;",
+      "brand": "Unknown",
+      "barcode": "0669393940579",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Menta Piperita",
+      "brand": "Le stagioni d'Italia",
+      "barcode": "8056324086048",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Succo di Aloe Vera con polpa biologico",
+      "brand": "Unknown",
+      "barcode": "8002234801509",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bio Risotto",
+      "brand": "Saskia",
+      "barcode": "20292720",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Lentilhas sem Casca",
+      "brand": "Seara",
+      "barcode": "5602353900751",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomato juive",
+      "brand": "Golden Circle,Heinz",
+      "barcode": "9310179199360",
+      "nutriscore": "b"
+    }
+  ],
+  "en:tomato-sauces": [
+    {
+      "name": "Heinz Baked Beans",
+      "brand": "Heinz",
+      "barcode": "5000157024886",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Puree de tomate 680g bouteille verre",
+      "brand": "Netto",
+      "barcode": "3250391425273",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Pur\u00e9e de Tomates Bio",
+      "brand": "Unknown",
+      "barcode": "3770008100466",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sauce tomate olives",
+      "brand": "Auchan",
+      "barcode": "3596710484645",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Ketchup",
+      "brand": "Heinz",
+      "barcode": "8001040201718",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Pur\u00e9e de Tomates",
+      "brand": "Auchan",
+      "barcode": "3596710437962",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sauce tomate Basilic Jardin BIO",
+      "brand": "Jardin Bio, Jardin biologique, L\u00e9a Nature",
+      "barcode": "3478820023641",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Taco Sauce Medium",
+      "brand": "Santa Maria, Santa Maria Norge AS",
+      "barcode": "7311312002112",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomato ketchup",
+      "brand": "Our Family",
+      "barcode": "0070253286100",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomate",
+      "brand": "Orlando",
+      "barcode": "8410066000067",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Prego Traditional",
+      "brand": "Bailey's, MainStays, Prego",
+      "barcode": "0051000025494",
+      "nutriscore": "b"
+    },
+    {
+      "name": "La Rustica - Passata corposa e gustosa",
+      "brand": "Cirio",
+      "barcode": "80219033",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomate troceado",
+      "brand": "Eliges",
+      "barcode": "8480012005019",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Pur\u00e9e de tomate au basilic",
+      "brand": "Savino",
+      "barcode": "3580282135258",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomate frito pack 3 unidades",
+      "brand": "Dia",
+      "barcode": "8480017075314",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sugo Alle Olive",
+      "brand": "Combino",
+      "barcode": "20602116",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Passata Di Pomodoro",
+      "brand": "Albert Heijn",
+      "barcode": "8710400258353",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Coulis de tomate \u00e0 l'huile d'olive vierge extra 1.1%",
+      "brand": "Auchan, Auchan Gourmet, Terroir",
+      "barcode": "3596710398829",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Sauce aux tomates fra\u00eeches",
+      "brand": "Auchan",
+      "barcode": "3596710376933",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Tomato Passata With Garlic",
+      "brand": "Baresa",
+      "barcode": "4056489763062",
+      "nutriscore": "b"
+    }
+  ],
+  "en:textured-soy-protein": [
+    {
+      "name": "Sojagranulat",
+      "brand": "Vantastic",
+      "barcode": "4260661092165",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Soja hach\u00e9",
+      "brand": "Good Vood",
+      "barcode": "7611337501677",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Soja texturizada fina",
+      "brand": "Hacendado",
+      "barcode": "8480000073297",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Prot\u00e9ines de soja",
+      "brand": "La Vie Claire",
+      "barcode": "3266191107196",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Soy Protein Mince",
+      "brand": "H&B",
+      "barcode": "5059604647246",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Prot\u00e9ines de Soja petit",
+      "brand": "Grillon d'Or",
+      "barcode": "3421557902017",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Prot\u00e9ines de soja gros morceaux",
+      "brand": "Prim\u00e9al",
+      "barcode": "3380390221504",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Kotlety sojowe \u00e1 la schabowe",
+      "brand": "Sante",
+      "barcode": "5900617000316",
+      "nutriscore": "a"
+    },
+    {
+      "name": "S\u00f3jov\u00e9 nudli\u010dky",
+      "brand": "Bonavita",
+      "barcode": "8594001560424",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Granulare di soia",
+      "brand": "Probios",
+      "barcode": "8018699019922",
+      "nutriscore": "a"
+    },
+    {
+      "name": "S\u00f3jov\u00fd granul\u00e1t",
+      "brand": "BonaVita",
+      "barcode": "8594001560035",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Kotlety sojowe a'la schabowe",
+      "brand": "Sante",
+      "barcode": "9900170000316",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Petits \u00e9minc\u00e9s de soja",
+      "brand": "KoRo",
+      "barcode": "4260335838723",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Fortune Soya Chunks-225g",
+      "brand": "Unknown",
+      "barcode": "8906007283144",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Soja texturizada fina",
+      "brand": "Hacendado",
+      "barcode": "8480000073891",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Prot\u00e9ines de soja gros",
+      "brand": "Grillon d'Or",
+      "barcode": "3421557902024",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Prot\u00e9ines de soja gros",
+      "brand": "Grillon d'Or",
+      "barcode": "3421557902024",
+      "nutriscore": "a"
+    },
+    {
+      "name": "S\u00f3jov\u00fd granul\u00e1t",
+      "brand": "Racionella",
+      "barcode": "8586001011570",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Kostka sojowa a'la wo\u0142owe",
+      "brand": "Green Essence",
+      "barcode": "5902315416208",
+      "nutriscore": "a"
+    },
+    {
+      "name": "Petits \u00e9minc\u00e9s de soja",
+      "brand": "KoRo",
+      "barcode": "4260335838723",
+      "nutriscore": "a"
+    }
+  ],
+  "en:butters": [
+    {
+      "name": "Ha\u015fha\u015f Ezmesi",
+      "brand": "Sera",
+      "barcode": "8690777101981",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Cashew Butter",
+      "brand": "Maribel",
+      "barcode": "4056489822943",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Qualit\u00e9 & Prix Beurre Demi-Gras",
+      "brand": "Coop,Qualit\u00e9 & Prix",
+      "barcode": "7613356135901",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Beurre d'arachide Non sucr\u00e9/Non sal\u00e9",
+      "brand": "Kraft",
+      "barcode": "0068100083934",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Mantequilla tradicional 10 mini porciones",
+      "brand": "Arias, Savencia",
+      "barcode": "8413100045901",
+      "nutriscore": "b"
+    },
+    {
+      "name": "\u041c\u0430\u0441\u043b\u043e \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u043e\u0435 \u042d\u043a\u043e \u043c\u0438\u043b\u043a",
+      "brand": "Unknown",
+      "barcode": "4606419022471",
+      "nutriscore": "b"
+    },
+    {
+      "name": "freefrom Butter",
+      "brand": "coop",
+      "barcode": "7610829818569",
+      "nutriscore": "b"
+    },
+    {
+      "name": "\u041c\u0430\u0441\u043b\u043e",
+      "brand": "\u0411\u0440\u0435\u0441\u0442-\u041b\u0438\u0442\u043e\u0432\u0441\u043a",
+      "barcode": "4810268024177",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Ghee - Beurre clarifi\u00e9",
+      "brand": "Coop Naturaplan",
+      "barcode": "7610849263448",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Beurre de choix",
+      "brand": "Denner",
+      "barcode": "7610029180909",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Campina Botergoud Grasboter Ongezouten",
+      "brand": "Campina",
+      "barcode": "87153163",
+      "nutriscore": "b"
+    },
+    {
+      "name": "\u041c\u0430\u0441\u043b\u043e \u0421\u043b\u0438\u0432\u043e\u0447\u043d\u043e\u0435 \u041a\u0440\u0435\u0441\u0442\u044c\u044f\u043d\u0441\u043a\u043e\u0435",
+      "brand": "\u0414\u0430\u0440\u0451\u043d\u043a\u0430",
+      "barcode": "4607047113609",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Mantequilla",
+      "brand": "Unknown",
+      "barcode": "6111203005038",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Kochbutter",
+      "brand": "Milbona",
+      "barcode": "20244347",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Aceite de oliva virgen extra",
+      "brand": "egregio",
+      "barcode": "8422975110003",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Salted Butter",
+      "brand": "Woolworths essentials,woolworths",
+      "barcode": "9300633486501",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Beurre Mon D\u00e9lice",
+      "brand": "Unknown",
+      "barcode": "7610141601009",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Beurre de choix de la montagne",
+      "brand": "De la R\u00e9gion",
+      "barcode": "7613269134374",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bio Beurre de Cuisine",
+      "brand": "naturaplan",
+      "barcode": "7610848080961",
+      "nutriscore": "b"
+    },
+    {
+      "name": "Bio Beurre de Cuisine",
+      "brand": "naturaplan",
+      "barcode": "7610848080961",
+      "nutriscore": "b"
+    }
+  ]
+}

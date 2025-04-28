@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Info</title>
+  <style>
+    /* Root colors */
+    :root {
+      --primary-color: #2874f0; /* Main app color */
+      --secondary-color: #4CAF50; /* Secondary color for action buttons */
+      --bg-light: #f7f7f7; /* Light background color */
+      --bg-dark: #2a2a2a; /* Dark background for contrast */
+      --text-light: #fff; /* Light text for dark mode */
+      --text-dark: #333; /* Dark text for light mode */
+      --card-bg: #fff; /* Card background */
+      --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadow for cards */
+      --shadow-dark: rgba(0, 0, 0, 0.2); /* Dark shadow for dark mode */
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-light);
+      margin: 0;
+      padding: 20px;
+      color: var(--text-dark);
+      transition: background-color 0.3s, color 0.3s;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+    }
+
+    .container {
+      background-color: var(--card-bg);
+      width: 100%;
+      max-width: 900px;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px var(--shadow-light);
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+      align-items: flex-start;
+      transition: box-shadow 0.3s;
+    }
+
+    body.dark .container {
+      box-shadow: 0 8px 24px var(--shadow-dark);
+    }
+
+    .product-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 15px;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 350px;
+      border-radius: 8px;
+      border: 2px solid #e2e2e2;
+      box-shadow: 0 4px 12px var(--shadow-light);
+      transition: transform 0.3s ease;
+    }
+
+    .product-image img:hover {
+      transform: scale(1.05);
+    }
+
+    .product-details {
+      flex: 2;
+      padding-left: 15px;
+      max-width: 500px; /* Ensuring content doesn't overflow */
+    }
+
+    h2 {
+      margin-top: 0;
+      color: var(--primary-color);
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 12px 0;
+      font-size: 16px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .nutrients {
+      margin-top: 30px;
+    }
+
+    .nutrients h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: var(--primary-color);
+    }
+
+    .nutrients ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .nutrients li {
+      background-color: #fafafa;
+      margin-bottom: 10px;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px var(--shadow-light);
+      font-size: 16px;
+      color: #555;
+      transition: background-color 0.3s ease;
+    }
+
+    .nutrients li:hover {
+      background-color: var(--primary-color);
+      color: var(--text-light);
+    }
+
+    .alt-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: var(--secondary-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .alt-link:hover {
+      background-color: #25903d;
+    }
+
+    .not-found {
+      text-align: center;
+      font-size: 1.4em;
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      background-color: var(--card-bg);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px var(--shadow-light);
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .navbar a {
+      color: var(--primary-color);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .toggle-switch {
+      cursor: pointer;
+      font-size: 14px;
+      padding: 8px 15px;
+      border-radius: 6px;
+      background-color: var(--primary-color);
+      color: var(--text-light);
+      border: none;
+    }
+
+    .toggle-switch:hover {
+      background-color: #2368b5;
+    }
+
+    .toggle-switch i {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div>
+      <a href="/">Home</a>
+      <a href="/report">Report</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/login">Login</a>
+      <a href="/diet">Diet Plan</a>
+    </div>
+    <button class="toggle-switch" onclick="toggleDarkMode()">
+      <i class="fas fa-moon"></i> Toggle Dark Mode
+    </button>
+  </div>
+
+  <!-- Main Content -->
+  {% if not_found %}
+    <div class="not-found">Product not found!</div>
+  {% else %}
+    <div class="container">
+      <div class="product-image">
+        <img src="{{ product.image_url }}" alt="Product Image">
+      </div>
+      <div class="product-details">
+        <h2>{{ product.name }}</h2>
+        <p><span class="label">Brand:</span> {{ product.brands }}</p>
+        <p><span class="label">NutriScore:</span> {{ product.nutriscore|upper }}</p>
+        <p><span class="label">Ingredients:</span> {{ product.ingredients_text }}</p>
+
+        <div class="nutrients">
+          <h3>Nutritional Info per 100g:</h3>
+          <ul>
+            {% for key, value in product.nutriments.items() %}
+              <li>{{ key.replace("_", " ").capitalize() }}: {{ value }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <a class="alt-link" href="{{ url_for('alternative_products') }}?barcode={{ product.barcode }}">
+          Find Healthier Alternatives
+        </a>
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Toggle Dark Mode Script -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+
+</body>
+</html>

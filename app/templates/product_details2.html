@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ product.name }} - Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>{{ product.name }}</h2>
+    <p><strong>Brand:</strong> {{ product.brand }}</p>
+    <p><strong>Category:</strong> {{ product.category }}</p>
+
+    <h3>Barcode Photo:</h3>
+    <img src="{{ url_for('uploaded_file', filename=product.barcode_photo) }}" alt="Barcode Photo">
+
+    <h3>Ingredient Label Photo:</h3>
+    <img src="{{ url_for('uploaded_file', filename=product.ingredient_photo) }}" alt="Ingredient Photo">
+</div>
+
+</body>
+</html>

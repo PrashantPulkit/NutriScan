@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nutrition Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f7f5;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c786c;
+    }
+    .summary {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .summary p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+    canvas {
+      margin: 30px auto;
+      display: block;
+      max-width: 90%;
+    }
+    .feedback {
+      background: #e7f6ec;
+      padding: 20px;
+      border-left: 6px solid #2c786c;
+      margin-top: 20px;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🛒 Nutrition Health Report</h1>
+
+  <div class="summary">
+    <p><strong>Average Nutri-Score:</strong> {{ average_score }}</p>
+    <p><strong>Total Products Analyzed:</strong> {{ total_products }}</p>
+    <p><strong>Good Choices (Nutri-Score A or B):</strong> {{ good_choices }}</p>
+    <p><strong>Poor Choices (Nutri-Score D or E):</strong> {{ poor_choices }}</p>
+    <p><strong>Best Score:</strong> {{ best_score }}</p>
+    <p><strong>Worst Score:</strong> {{ worst_score }}</p>
+  </div>
+
+  <canvas id="scoreLineChart" width="400" height="200"></canvas>
+  <canvas id="choicePieChart" width="400" height="200"></canvas>
+
+  <div class="feedback">
+    <strong>Feedback:</strong>
+    <p>{{ feedback }}</p>
+  </div>
+
+</div>
+
+<script>
+  const scoreLabels = {{ labels | tojson }};
+  const scoreValues = {{ score_values | tojson }};
+  const goodChoices = {{ good_choices }};
+  const poorChoices = {{ poor_choices }};
+  const neutralChoices = {{ total_products }} - goodChoices - poorChoices;
+
+  // Line chart for Nutri-Scores
+  const ctxLine = document.getElementById('scoreLineChart').getContext('2d');
+  const scoreLineChart = new Chart(ctxLine, {
+    type: 'line',
+    data: {
+      labels: scoreLabels,
+      datasets: [{
+        label: 'Nutritional Score (5=A, 1=E)',
+        data: scoreValues,
+        backgroundColor: 'rgba(44, 120, 108, 0.2)',
+        borderColor: 'rgba(44, 120, 108, 1)',
+        borderWidth: 3,
+        pointBackgroundColor: '#2c786c',
+        tension: 0.4,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          min: 0,
+          max: 5,
+          ticks: {
+            stepSize: 1
+          }
+        }
+      }
+    }
+  });
+
+  // Pie chart for Good vs Poor Choices
+  const ctxPie = document.getElementById('choicePieChart').getContext('2d');
+  const choicePieChart = new Chart(ctxPie, {
+    type: 'pie',
+    data: {
+      labels: ['Good Choices', 'Poor Choices', 'Neutral Choices'],
+      datasets: [{
+        label: 'Choices Distribution',
+        data: [goodChoices, poorChoices, neutralChoices],
+        backgroundColor: [
+          'rgba(46, 204, 113, 0.7)', // Green
+          'rgba(231, 76, 60, 0.7)',   // Red
+          'rgba(241, 196, 15, 0.7)'   // Yellow
+        ],
+        borderColor: [
+          'rgba(46, 204, 113, 1)',
+          'rgba(231, 76, 60, 1)',
+          'rgba(241, 196, 15, 1)'
+        ],
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true
+    }
+  });
+</script>
+
+</body>
+</html>

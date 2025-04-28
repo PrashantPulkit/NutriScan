@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthier Alternatives</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    li {
+      background-color: #f9f9f9;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .info {
+      font-size: 16px;
+    }
+
+    .info span {
+      color: #555;
+    }
+
+    .view-link {
+      text-decoration: none;
+      padding: 8px 16px;
+      background-color: #2874f0;
+      color: #fff;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .view-link:hover {
+      background-color: #0f5bd3;
+    }
+
+    .no-alts {
+      text-align: center;
+      color: #c0392b;
+      font-size: 1.2em;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Healthier Alternatives to "{{ original }}"</h2>
+
+    {% if alternatives %}
+      <ul>
+        {% for alt in alternatives %}
+          <li>
+            <div class="info">
+              <strong>{{ alt.name }}</strong> <br>
+              <span>Brand: {{ alt.brand }} | NutriScore: {{ alt.nutriscore|upper }}</span>
+            </div>
+            <a class="view-link" href="{{ url_for('product_detail', barcode=alt.barcode) }}">View</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <div class="no-alts">No healthier alternatives found.</div>
+    {% endif %}
+  </div>
+</body>
+</html>

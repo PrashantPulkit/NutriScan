@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Results</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .product-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .product-info {
+      flex: 1;
+    }
+    .product-info h4 {
+      margin: 0 0 6px;
+    }
+    .view-link {
+      display: inline-block;
+      margin-top: 6px;
+      color: #0a7dda;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Results for "{{ query }}"</h2>
+  {% for item in products %}
+    <div class="product-card">
+      <img src="{{ item.image_url or 'https://via.placeholder.com/80' }}" alt="Product Image">
+      <div class="product-info">
+        <h4>{{ item.product_name or "Unnamed" }}</h4>
+        <p>Brand: {{ item.brands or "Unknown" }}</p>
+        <p>NutriScore: {{ item.nutrition_grades_tags[0]|upper if item.nutrition_grades_tags else "?" }}</p>
+        <a href="{{ url_for('product_detail', barcode=item.code) }}" class="view-link">View Details</a>
+      </div>
+    </div>
+  {% endfor %}
+</body>
+</html>

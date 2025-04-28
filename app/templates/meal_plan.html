@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Plan</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f8f9fa; }
+        h1, h2 { color: #343a40; }
+        .meal { margin-bottom: 20px; padding: 15px; background: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .item { margin-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Daily Meal Plan</h1>
+    <p><strong>Target Calories:</strong> {{ daily_calories }} kcal</p>
+    <p><strong>Meals Per Day:</strong> {{ meals_per_day }}</p>
+
+    {% for meal_name, items in meal_plan.items() %}
+        <div class="meal">
+            <h2>{{ meal_name }}</h2>
+            {% for item_name, details in items.items() %}
+                <div class="item">🍴 {{ item_name }} — {{ details.quantity_g }}g ({{ details.estimated_kcal }} kcal)</div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+</body>
+</html>
