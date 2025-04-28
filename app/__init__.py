@@ -41,6 +41,10 @@ def create_app():
     @app.route('/')
     def index():
         return render_template('index.html')
+    
+    @app.route('/submitnew')
+    def submitnew():
+        return render_template('submit_product.html')
    
 
     @app.route('/history')

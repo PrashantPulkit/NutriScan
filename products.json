@@ -1,96 +1,567 @@
 {
-    "banana": {"energy_kcal_per_100g": 89, "carbohydrates_per_100g": 22.8, "proteins_per_100g": 1.1, "fat_per_100g": 0.3},
-    "apple": {"energy_kcal_per_100g": 52, "carbohydrates_per_100g": 14, "proteins_per_100g": 0.3, "fat_per_100g": 0.2},
-    "orange": {"energy_kcal_per_100g": 47, "carbohydrates_per_100g": 12, "proteins_per_100g": 0.9, "fat_per_100g": 0.1},
-    "grapes": {"energy_kcal_per_100g": 69, "carbohydrates_per_100g": 18, "proteins_per_100g": 0.7, "fat_per_100g": 0.2},
-    "strawberry": {"energy_kcal_per_100g": 32, "carbohydrates_per_100g": 7.7, "proteins_per_100g": 0.7, "fat_per_100g": 0.3},
-    "blueberry": {"energy_kcal_per_100g": 57, "carbohydrates_per_100g": 14.5, "proteins_per_100g": 0.7, "fat_per_100g": 0.3},
-    "watermelon": {"energy_kcal_per_100g": 30, "carbohydrates_per_100g": 8, "proteins_per_100g": 0.6, "fat_per_100g": 0.2},
-    "pineapple": {"energy_kcal_per_100g": 50, "carbohydrates_per_100g": 13, "proteins_per_100g": 0.5, "fat_per_100g": 0.1},
-    "avocado": {"energy_kcal_per_100g": 160, "carbohydrates_per_100g": 9, "proteins_per_100g": 2, "fat_per_100g": 15},
-    "carrot": {"energy_kcal_per_100g": 41, "carbohydrates_per_100g": 10, "proteins_per_100g": 0.9, "fat_per_100g": 0.2},
-    "broccoli": {"energy_kcal_per_100g": 34, "carbohydrates_per_100g": 7, "proteins_per_100g": 2.8, "fat_per_100g": 0.4},
-    "spinach": {"energy_kcal_per_100g": 23, "carbohydrates_per_100g": 3.6, "proteins_per_100g": 2.9, "fat_per_100g": 0.4},
-    "kale": {"energy_kcal_per_100g": 49, "carbohydrates_per_100g": 8.8, "proteins_per_100g": 4.3, "fat_per_100g": 0.9},
-    "lettuce": {"energy_kcal_per_100g": 15, "carbohydrates_per_100g": 2.9, "proteins_per_100g": 1.4, "fat_per_100g": 0.2},
-    "tomato": {"energy_kcal_per_100g": 18, "carbohydrates_per_100g": 3.9, "proteins_per_100g": 0.9, "fat_per_100g": 0.2},
-    "cucumber": {"energy_kcal_per_100g": 16, "carbohydrates_per_100g": 3.6, "proteins_per_100g": 0.7, "fat_per_100g": 0.1},
-    "potato": {"energy_kcal_per_100g": 77, "carbohydrates_per_100g": 17, "proteins_per_100g": 2, "fat_per_100g": 0.1},
-    "sweet_potato": {"energy_kcal_per_100g": 86, "carbohydrates_per_100g": 20, "proteins_per_100g": 1.6, "fat_per_100g": 0.1},
-    "chicken_breast": {"energy_kcal_per_100g": 165, "carbohydrates_per_100g": 0, "proteins_per_100g": 31, "fat_per_100g": 3.6},
-    "ground_beef": {"energy_kcal_per_100g": 250, "carbohydrates_per_100g": 0, "proteins_per_100g": 26, "fat_per_100g": 17},
-    "salmon": {"energy_kcal_per_100g": 208, "carbohydrates_per_100g": 0, "proteins_per_100g": 20, "fat_per_100g": 13},
-    "tuna": {"energy_kcal_per_100g": 132, "carbohydrates_per_100g": 0, "proteins_per_100g": 28, "fat_per_100g": 1.3},
-    "shrimp": {"energy_kcal_per_100g": 99, "carbohydrates_per_100g": 0.2, "proteins_per_100g": 24, "fat_per_100g": 0.3},
-    "milk": {"energy_kcal_per_100g": 42, "carbohydrates_per_100g": 5, "proteins_per_100g": 3.4, "fat_per_100g": 1},
-    "yogurt": {"energy_kcal_per_100g": 59, "carbohydrates_per_100g": 3.6, "proteins_per_100g": 10, "fat_per_100g": 0.4},
-    "cheddar_cheese": {"energy_kcal_per_100g": 403, "carbohydrates_per_100g": 1.3, "proteins_per_100g": 25, "fat_per_100g": 33},
-    "mozzarella": {"energy_kcal_per_100g": 280, "carbohydrates_per_100g": 2.2, "proteins_per_100g": 18, "fat_per_100g": 17},
-    "almonds": {"energy_kcal_per_100g": 579, "carbohydrates_per_100g": 22, "proteins_per_100g": 21, "fat_per_100g": 50},
-    "peanuts": {"energy_kcal_per_100g": 567, "carbohydrates_per_100g": 16, "proteins_per_100g": 26, "fat_per_100g": 49},
-    "walnuts": {"energy_kcal_per_100g": 654, "carbohydrates_per_100g": 14, "proteins_per_100g": 15, "fat_per_100g": 65},
-    "cashews": {"energy_kcal_per_100g": 553, "carbohydrates_per_100g": 30, "proteins_per_100g": 18, "fat_per_100g": 44},
-    "oats": {"energy_kcal_per_100g": 389, "carbohydrates_per_100g": 66, "proteins_per_100g": 17, "fat_per_100g": 7},
-    "white_rice": {"energy_kcal_per_100g": 130, "carbohydrates_per_100g": 28, "proteins_per_100g": 2.7, "fat_per_100g": 0.3},
-    "brown_rice": {"energy_kcal_per_100g": 123, "carbohydrates_per_100g": 26, "proteins_per_100g": 2.7, "fat_per_100g": 1},
-    "bread": {"energy_kcal_per_100g": 265, "carbohydrates_per_100g": 49, "proteins_per_100g": 9, "fat_per_100g": 3.2},
-    "whole_wheat_bread": {"energy_kcal_per_100g": 247, "carbohydrates_per_100g": 41, "proteins_per_100g": 13, "fat_per_100g": 4.2},
-    "pasta": {"energy_kcal_per_100g": 131, "carbohydrates_per_100g": 25, "proteins_per_100g": 5, "fat_per_100g": 1.1},
-    "quinoa": {"energy_kcal_per_100g": 120, "carbohydrates_per_100g": 21, "proteins_per_100g": 4.1, "fat_per_100g": 1.9},
-    "peanut_butter": {"energy_kcal_per_100g": 588, "carbohydrates_per_100g": 20, "proteins_per_100g": 25, "fat_per_100g": 50},
-    "dark_chocolate": {"energy_kcal_per_100g": 546, "carbohydrates_per_100g": 46, "proteins_per_100g": 5, "fat_per_100g": 31},
-    "granola_bar": {"energy_kcal_per_100g": 471, "carbohydrates_per_100g": 64, "proteins_per_100g": 8, "fat_per_100g": 19},
-    "honey": {"energy_kcal_per_100g": 304, "carbohydrates_per_100g": 82, "proteins_per_100g": 0.3, "fat_per_100g": 0},
-    "coconut": {"energy_kcal_per_100g": 354, "carbohydrates_per_100g": 15, "proteins_per_100g": 3.3, "fat_per_100g": 33},
-    "chia_seeds": {"energy_kcal_per_100g": 486, "carbohydrates_per_100g": 42, "proteins_per_100g": 17, "fat_per_100g": 31},
-    "flaxseeds": {"energy_kcal_per_100g": 534, "carbohydrates_per_100g": 29, "proteins_per_100g": 18, "fat_per_100g": 42},
-    "eggs": {"energy_kcal_per_100g": 155, "carbohydrates_per_100g": 1.1, "proteins_per_100g": 13, "fat_per_100g": 11},"beef_steak": {"energy_kcal_per_100g": 271, "carbohydrates_per_100g": 0, "proteins_per_100g": 26, "fat_per_100g": 19},
-  "pork_chop": {"energy_kcal_per_100g": 231, "carbohydrates_per_100g": 0, "proteins_per_100g": 22, "fat_per_100g": 15},
-  "turkey_breast": {"energy_kcal_per_100g": 135, "carbohydrates_per_100g": 0, "proteins_per_100g": 29, "fat_per_100g": 1},
-  "duck": {"energy_kcal_per_100g": 337, "carbohydrates_per_100g": 0, "proteins_per_100g": 19, "fat_per_100g": 28},
-  "lamb": {"energy_kcal_per_100g": 294, "carbohydrates_per_100g": 0, "proteins_per_100g": 25, "fat_per_100g": 21},
-  "cod": {"energy_kcal_per_100g": 82, "carbohydrates_per_100g": 0, "proteins_per_100g": 18, "fat_per_100g": 0.7},
-  "sardines": {"energy_kcal_per_100g": 208, "carbohydrates_per_100g": 0, "proteins_per_100g": 25, "fat_per_100g": 11},
-  "mussels": {"energy_kcal_per_100g": 172, "carbohydrates_per_100g": 7.4, "proteins_per_100g": 24, "fat_per_100g": 4.5},
-  "tofu": {"energy_kcal_per_100g": 76, "carbohydrates_per_100g": 1.9, "proteins_per_100g": 8, "fat_per_100g": 4.8},
-  "tempeh": {"energy_kcal_per_100g": 192, "carbohydrates_per_100g": 9.4, "proteins_per_100g": 20, "fat_per_100g": 11},
-  "soybeans": {"energy_kcal_per_100g": 446, "carbohydrates_per_100g": 30, "proteins_per_100g": 36, "fat_per_100g": 20},
-  "lentils": {"energy_kcal_per_100g": 116, "carbohydrates_per_100g": 20, "proteins_per_100g": 9, "fat_per_100g": 0.4},
-  "chickpeas": {"energy_kcal_per_100g": 164, "carbohydrates_per_100g": 27, "proteins_per_100g": 9, "fat_per_100g": 2.6},
-  "black_beans": {"energy_kcal_per_100g": 132, "carbohydrates_per_100g": 24, "proteins_per_100g": 9, "fat_per_100g": 0.5},
-  "kidney_beans": {"energy_kcal_per_100g": 127, "carbohydrates_per_100g": 23, "proteins_per_100g": 9, "fat_per_100g": 0.5},
-  "green_peas": {"energy_kcal_per_100g": 81, "carbohydrates_per_100g": 14, "proteins_per_100g": 5, "fat_per_100g": 0.4},
-  "pumpkin_seeds": {"energy_kcal_per_100g": 559, "carbohydrates_per_100g": 15, "proteins_per_100g": 30, "fat_per_100g": 49},
-  "sunflower_seeds": {"energy_kcal_per_100g": 584, "carbohydrates_per_100g": 20, "proteins_per_100g": 21, "fat_per_100g": 51},
-  "raisins": {"energy_kcal_per_100g": 299, "carbohydrates_per_100g": 79, "proteins_per_100g": 3.1, "fat_per_100g": 0.5},
-  "dates": {"energy_kcal_per_100g": 277, "carbohydrates_per_100g": 75, "proteins_per_100g": 2, "fat_per_100g": 0.2},
-  "figs": {"energy_kcal_per_100g": 74, "carbohydrates_per_100g": 19, "proteins_per_100g": 0.8, "fat_per_100g": 0.3},
-  "pear": {"energy_kcal_per_100g": 57, "carbohydrates_per_100g": 15, "proteins_per_100g": 0.4, "fat_per_100g": 0.1},
-  "plum": {"energy_kcal_per_100g": 46, "carbohydrates_per_100g": 11, "proteins_per_100g": 0.7, "fat_per_100g": 0.3},
-  "kiwi": {"energy_kcal_per_100g": 61, "carbohydrates_per_100g": 15, "proteins_per_100g": 1.1, "fat_per_100g": 0.5},
-  "mango": {"energy_kcal_per_100g": 60, "carbohydrates_per_100g": 15, "proteins_per_100g": 0.8, "fat_per_100g": 0.4},
-  "papaya": {"energy_kcal_per_100g": 43, "carbohydrates_per_100g": 11, "proteins_per_100g": 0.5, "fat_per_100g": 0.3},
-  "peach": {"energy_kcal_per_100g": 39, "carbohydrates_per_100g": 10, "proteins_per_100g": 0.9, "fat_per_100g": 0.3},
-  "beetroot": {"energy_kcal_per_100g": 43, "carbohydrates_per_100g": 10, "proteins_per_100g": 1.6, "fat_per_100g": 0.2},
-  "eggplant": {"energy_kcal_per_100g": 25, "carbohydrates_per_100g": 6, "proteins_per_100g": 1, "fat_per_100g": 0.2},
-  "zucchini": {"energy_kcal_per_100g": 17, "carbohydrates_per_100g": 3.1, "proteins_per_100g": 1.2, "fat_per_100g": 0.3},
-  "asparagus": {"energy_kcal_per_100g": 20, "carbohydrates_per_100g": 3.9, "proteins_per_100g": 2.2, "fat_per_100g": 0.1},
-  "cauliflower": {"energy_kcal_per_100g": 25, "carbohydrates_per_100g": 5, "proteins_per_100g": 2, "fat_per_100g": 0.3},
-  "mushrooms": {"energy_kcal_per_100g": 22, "carbohydrates_per_100g": 3.3, "proteins_per_100g": 3.1, "fat_per_100g": 0.3},
-  "bell_pepper": {"energy_kcal_per_100g": 31, "carbohydrates_per_100g": 6, "proteins_per_100g": 1, "fat_per_100g": 0.3},
-  "onion": {"energy_kcal_per_100g": 40, "carbohydrates_per_100g": 9, "proteins_per_100g": 1.1, "fat_per_100g": 0.1},
-  "garlic": {"energy_kcal_per_100g": 149, "carbohydrates_per_100g": 33, "proteins_per_100g": 6.4, "fat_per_100g": 0.5},
-  "ginger": {"energy_kcal_per_100g": 80, "carbohydrates_per_100g": 18, "proteins_per_100g": 1.8, "fat_per_100g": 0.8},
-  "sweet_corn": {"energy_kcal_per_100g": 86, "carbohydrates_per_100g": 19, "proteins_per_100g": 3.2, "fat_per_100g": 1.2},
-  "cabbage": {"energy_kcal_per_100g": 25, "carbohydrates_per_100g": 6, "proteins_per_100g": 1.3, "fat_per_100g": 0.1},
-  "brussels_sprouts": {"energy_kcal_per_100g": 43, "carbohydrates_per_100g": 9, "proteins_per_100g": 3.4, "fat_per_100g": 0.3},
-  "yogurt_greek": {"energy_kcal_per_100g": 59, "carbohydrates_per_100g": 3.6, "proteins_per_100g": 10, "fat_per_100g": 0.4},
-  "protein_powder": {"energy_kcal_per_100g": 370, "carbohydrates_per_100g": 6, "proteins_per_100g": 80, "fat_per_100g": 3},
-  "protein_bar": {"energy_kcal_per_100g": 350, "carbohydrates_per_100g": 30, "proteins_per_100g": 25, "fat_per_100g": 10},
-  "ice_cream": {"energy_kcal_per_100g": 207, "carbohydrates_per_100g": 24, "proteins_per_100g": 3.5, "fat_per_100g": 11},
-  "french_fries": {"energy_kcal_per_100g": 312, "carbohydrates_per_100g": 41, "proteins_per_100g": 3.4, "fat_per_100g": 15},
-  "pizza": {"energy_kcal_per_100g": 266, "carbohydrates_per_100g": 33, "proteins_per_100g": 11, "fat_per_100g": 10},
-  "hamburger": {"energy_kcal_per_100g": 295, "carbohydrates_per_100g": 30, "proteins_per_100g": 17, "fat_per_100g": 14}
-  
-  }
-  
+    "banana": {
+        "energy_kcal_per_100g": 89,
+        "carbohydrates_per_100g": 22.8,
+        "proteins_per_100g": 1.1,
+        "fat_per_100g": 0.3
+    },
+    "apple": {
+        "energy_kcal_per_100g": 52,
+        "carbohydrates_per_100g": 14,
+        "proteins_per_100g": 0.3,
+        "fat_per_100g": 0.2
+    },
+    "orange": {
+        "energy_kcal_per_100g": 47,
+        "carbohydrates_per_100g": 12,
+        "proteins_per_100g": 0.9,
+        "fat_per_100g": 0.1
+    },
+    "grapes": {
+        "energy_kcal_per_100g": 69,
+        "carbohydrates_per_100g": 18,
+        "proteins_per_100g": 0.7,
+        "fat_per_100g": 0.2
+    },
+    "strawberry": {
+        "energy_kcal_per_100g": 32,
+        "carbohydrates_per_100g": 7.7,
+        "proteins_per_100g": 0.7,
+        "fat_per_100g": 0.3
+    },
+    "blueberry": {
+        "energy_kcal_per_100g": 57,
+        "carbohydrates_per_100g": 14.5,
+        "proteins_per_100g": 0.7,
+        "fat_per_100g": 0.3
+    },
+    "watermelon": {
+        "energy_kcal_per_100g": 30,
+        "carbohydrates_per_100g": 8,
+        "proteins_per_100g": 0.6,
+        "fat_per_100g": 0.2
+    },
+    "pineapple": {
+        "energy_kcal_per_100g": 50,
+        "carbohydrates_per_100g": 13,
+        "proteins_per_100g": 0.5,
+        "fat_per_100g": 0.1
+    },
+    "avocado": {
+        "energy_kcal_per_100g": 160,
+        "carbohydrates_per_100g": 9,
+        "proteins_per_100g": 2,
+        "fat_per_100g": 15
+    },
+    "carrot": {
+        "energy_kcal_per_100g": 41,
+        "carbohydrates_per_100g": 10,
+        "proteins_per_100g": 0.9,
+        "fat_per_100g": 0.2
+    },
+    "broccoli": {
+        "energy_kcal_per_100g": 34,
+        "carbohydrates_per_100g": 7,
+        "proteins_per_100g": 2.8,
+        "fat_per_100g": 0.4
+    },
+    "spinach": {
+        "energy_kcal_per_100g": 23,
+        "carbohydrates_per_100g": 3.6,
+        "proteins_per_100g": 2.9,
+        "fat_per_100g": 0.4
+    },
+    "kale": {
+        "energy_kcal_per_100g": 49,
+        "carbohydrates_per_100g": 8.8,
+        "proteins_per_100g": 4.3,
+        "fat_per_100g": 0.9
+    },
+    "lettuce": {
+        "energy_kcal_per_100g": 15,
+        "carbohydrates_per_100g": 2.9,
+        "proteins_per_100g": 1.4,
+        "fat_per_100g": 0.2
+    },
+    "tomato": {
+        "energy_kcal_per_100g": 18,
+        "carbohydrates_per_100g": 3.9,
+        "proteins_per_100g": 0.9,
+        "fat_per_100g": 0.2
+    },
+    "cucumber": {
+        "energy_kcal_per_100g": 16,
+        "carbohydrates_per_100g": 3.6,
+        "proteins_per_100g": 0.7,
+        "fat_per_100g": 0.1
+    },
+    "potato": {
+        "energy_kcal_per_100g": 77,
+        "carbohydrates_per_100g": 17,
+        "proteins_per_100g": 2,
+        "fat_per_100g": 0.1
+    },
+    "sweet_potato": {
+        "energy_kcal_per_100g": 86,
+        "carbohydrates_per_100g": 20,
+        "proteins_per_100g": 1.6,
+        "fat_per_100g": 0.1
+    },
+    "chicken_breast": {
+        "energy_kcal_per_100g": 165,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 31,
+        "fat_per_100g": 3.6
+    },
+    "ground_beef": {
+        "energy_kcal_per_100g": 250,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 26,
+        "fat_per_100g": 17
+    },
+    "salmon": {
+        "energy_kcal_per_100g": 208,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 20,
+        "fat_per_100g": 13
+    },
+    "tuna": {
+        "energy_kcal_per_100g": 132,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 28,
+        "fat_per_100g": 1.3
+    },
+    "shrimp": {
+        "energy_kcal_per_100g": 99,
+        "carbohydrates_per_100g": 0.2,
+        "proteins_per_100g": 24,
+        "fat_per_100g": 0.3
+    },
+    "milk": {
+        "energy_kcal_per_100g": 42,
+        "carbohydrates_per_100g": 5,
+        "proteins_per_100g": 3.4,
+        "fat_per_100g": 1
+    },
+    "yogurt": {
+        "energy_kcal_per_100g": 59,
+        "carbohydrates_per_100g": 3.6,
+        "proteins_per_100g": 10,
+        "fat_per_100g": 0.4
+    },
+    "cheddar_cheese": {
+        "energy_kcal_per_100g": 403,
+        "carbohydrates_per_100g": 1.3,
+        "proteins_per_100g": 25,
+        "fat_per_100g": 33
+    },
+    "mozzarella": {
+        "energy_kcal_per_100g": 280,
+        "carbohydrates_per_100g": 2.2,
+        "proteins_per_100g": 18,
+        "fat_per_100g": 17
+    },
+    "almonds": {
+        "energy_kcal_per_100g": 579,
+        "carbohydrates_per_100g": 22,
+        "proteins_per_100g": 21,
+        "fat_per_100g": 50
+    },
+    "peanuts": {
+        "energy_kcal_per_100g": 567,
+        "carbohydrates_per_100g": 16,
+        "proteins_per_100g": 26,
+        "fat_per_100g": 49
+    },
+    "walnuts": {
+        "energy_kcal_per_100g": 654,
+        "carbohydrates_per_100g": 14,
+        "proteins_per_100g": 15,
+        "fat_per_100g": 65
+    },
+    "cashews": {
+        "energy_kcal_per_100g": 553,
+        "carbohydrates_per_100g": 30,
+        "proteins_per_100g": 18,
+        "fat_per_100g": 44
+    },
+    "oats": {
+        "energy_kcal_per_100g": 389,
+        "carbohydrates_per_100g": 66,
+        "proteins_per_100g": 17,
+        "fat_per_100g": 7
+    },
+    "white_rice": {
+        "energy_kcal_per_100g": 130,
+        "carbohydrates_per_100g": 28,
+        "proteins_per_100g": 2.7,
+        "fat_per_100g": 0.3
+    },
+    "brown_rice": {
+        "energy_kcal_per_100g": 123,
+        "carbohydrates_per_100g": 26,
+        "proteins_per_100g": 2.7,
+        "fat_per_100g": 1
+    },
+    "bread": {
+        "energy_kcal_per_100g": 265,
+        "carbohydrates_per_100g": 49,
+        "proteins_per_100g": 9,
+        "fat_per_100g": 3.2
+    },
+    "whole_wheat_bread": {
+        "energy_kcal_per_100g": 247,
+        "carbohydrates_per_100g": 41,
+        "proteins_per_100g": 13,
+        "fat_per_100g": 4.2
+    },
+    "pasta": {
+        "energy_kcal_per_100g": 131,
+        "carbohydrates_per_100g": 25,
+        "proteins_per_100g": 5,
+        "fat_per_100g": 1.1
+    },
+    "quinoa": {
+        "energy_kcal_per_100g": 120,
+        "carbohydrates_per_100g": 21,
+        "proteins_per_100g": 4.1,
+        "fat_per_100g": 1.9
+    },
+    "peanut_butter": {
+        "energy_kcal_per_100g": 588,
+        "carbohydrates_per_100g": 20,
+        "proteins_per_100g": 25,
+        "fat_per_100g": 50
+    },
+    "dark_chocolate": {
+        "energy_kcal_per_100g": 546,
+        "carbohydrates_per_100g": 46,
+        "proteins_per_100g": 5,
+        "fat_per_100g": 31
+    },
+    "granola_bar": {
+        "energy_kcal_per_100g": 471,
+        "carbohydrates_per_100g": 64,
+        "proteins_per_100g": 8,
+        "fat_per_100g": 19
+    },
+    "honey": {
+        "energy_kcal_per_100g": 304,
+        "carbohydrates_per_100g": 82,
+        "proteins_per_100g": 0.3,
+        "fat_per_100g": 0
+    },
+    "coconut": {
+        "energy_kcal_per_100g": 354,
+        "carbohydrates_per_100g": 15,
+        "proteins_per_100g": 3.3,
+        "fat_per_100g": 33
+    },
+    "chia_seeds": {
+        "energy_kcal_per_100g": 486,
+        "carbohydrates_per_100g": 42,
+        "proteins_per_100g": 17,
+        "fat_per_100g": 31
+    },
+    "flaxseeds": {
+        "energy_kcal_per_100g": 534,
+        "carbohydrates_per_100g": 29,
+        "proteins_per_100g": 18,
+        "fat_per_100g": 42
+    },
+    "eggs": {
+        "energy_kcal_per_100g": 155,
+        "carbohydrates_per_100g": 1.1,
+        "proteins_per_100g": 13,
+        "fat_per_100g": 11
+    },
+    "beef_steak": {
+        "energy_kcal_per_100g": 271,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 26,
+        "fat_per_100g": 19
+    },
+    "pork_chop": {
+        "energy_kcal_per_100g": 231,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 22,
+        "fat_per_100g": 15
+    },
+    "turkey_breast": {
+        "energy_kcal_per_100g": 135,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 29,
+        "fat_per_100g": 1
+    },
+    "duck": {
+        "energy_kcal_per_100g": 337,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 19,
+        "fat_per_100g": 28
+    },
+    "lamb": {
+        "energy_kcal_per_100g": 294,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 25,
+        "fat_per_100g": 21
+    },
+    "cod": {
+        "energy_kcal_per_100g": 82,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 18,
+        "fat_per_100g": 0.7
+    },
+    "sardines": {
+        "energy_kcal_per_100g": 208,
+        "carbohydrates_per_100g": 0,
+        "proteins_per_100g": 25,
+        "fat_per_100g": 11
+    },
+    "mussels": {
+        "energy_kcal_per_100g": 172,
+        "carbohydrates_per_100g": 7.4,
+        "proteins_per_100g": 24,
+        "fat_per_100g": 4.5
+    },
+    "tofu": {
+        "energy_kcal_per_100g": 76,
+        "carbohydrates_per_100g": 1.9,
+        "proteins_per_100g": 8,
+        "fat_per_100g": 4.8
+    },
+    "tempeh": {
+        "energy_kcal_per_100g": 192,
+        "carbohydrates_per_100g": 9.4,
+        "proteins_per_100g": 20,
+        "fat_per_100g": 11
+    },
+    "soybeans": {
+        "energy_kcal_per_100g": 446,
+        "carbohydrates_per_100g": 30,
+        "proteins_per_100g": 36,
+        "fat_per_100g": 20
+    },
+    "lentils": {
+        "energy_kcal_per_100g": 116,
+        "carbohydrates_per_100g": 20,
+        "proteins_per_100g": 9,
+        "fat_per_100g": 0.4
+    },
+    "chickpeas": {
+        "energy_kcal_per_100g": 164,
+        "carbohydrates_per_100g": 27,
+        "proteins_per_100g": 9,
+        "fat_per_100g": 2.6
+    },
+    "black_beans": {
+        "energy_kcal_per_100g": 132,
+        "carbohydrates_per_100g": 24,
+        "proteins_per_100g": 9,
+        "fat_per_100g": 0.5
+    },
+    "kidney_beans": {
+        "energy_kcal_per_100g": 127,
+        "carbohydrates_per_100g": 23,
+        "proteins_per_100g": 9,
+        "fat_per_100g": 0.5
+    },
+    "green_peas": {
+        "energy_kcal_per_100g": 81,
+        "carbohydrates_per_100g": 14,
+        "proteins_per_100g": 5,
+        "fat_per_100g": 0.4
+    },
+    "pumpkin_seeds": {
+        "energy_kcal_per_100g": 559,
+        "carbohydrates_per_100g": 15,
+        "proteins_per_100g": 30,
+        "fat_per_100g": 49
+    },
+    "sunflower_seeds": {
+        "energy_kcal_per_100g": 584,
+        "carbohydrates_per_100g": 20,
+        "proteins_per_100g": 21,
+        "fat_per_100g": 51
+    },
+    "raisins": {
+        "energy_kcal_per_100g": 299,
+        "carbohydrates_per_100g": 79,
+        "proteins_per_100g": 3.1,
+        "fat_per_100g": 0.5
+    },
+    "dates": {
+        "energy_kcal_per_100g": 277,
+        "carbohydrates_per_100g": 75,
+        "proteins_per_100g": 2,
+        "fat_per_100g": 0.2
+    },
+    "figs": {
+        "energy_kcal_per_100g": 74,
+        "carbohydrates_per_100g": 19,
+        "proteins_per_100g": 0.8,
+        "fat_per_100g": 0.3
+    },
+    "pear": {
+        "energy_kcal_per_100g": 57,
+        "carbohydrates_per_100g": 15,
+        "proteins_per_100g": 0.4,
+        "fat_per_100g": 0.1
+    },
+    "plum": {
+        "energy_kcal_per_100g": 46,
+        "carbohydrates_per_100g": 11,
+        "proteins_per_100g": 0.7,
+        "fat_per_100g": 0.3
+    },
+    "kiwi": {
+        "energy_kcal_per_100g": 61,
+        "carbohydrates_per_100g": 15,
+        "proteins_per_100g": 1.1,
+        "fat_per_100g": 0.5
+    },
+    "mango": {
+        "energy_kcal_per_100g": 60,
+        "carbohydrates_per_100g": 15,
+        "proteins_per_100g": 0.8,
+        "fat_per_100g": 0.4
+    },
+    "papaya": {
+        "energy_kcal_per_100g": 43,
+        "carbohydrates_per_100g": 11,
+        "proteins_per_100g": 0.5,
+        "fat_per_100g": 0.3
+    },
+    "peach": {
+        "energy_kcal_per_100g": 39,
+        "carbohydrates_per_100g": 10,
+        "proteins_per_100g": 0.9,
+        "fat_per_100g": 0.3
+    },
+    "beetroot": {
+        "energy_kcal_per_100g": 43,
+        "carbohydrates_per_100g": 10,
+        "proteins_per_100g": 1.6,
+        "fat_per_100g": 0.2
+    },
+    "eggplant": {
+        "energy_kcal_per_100g": 25,
+        "carbohydrates_per_100g": 6,
+        "proteins_per_100g": 1,
+        "fat_per_100g": 0.2
+    },
+    "zucchini": {
+        "energy_kcal_per_100g": 17,
+        "carbohydrates_per_100g": 3.1,
+        "proteins_per_100g": 1.2,
+        "fat_per_100g": 0.3
+    },
+    "asparagus": {
+        "energy_kcal_per_100g": 20,
+        "carbohydrates_per_100g": 3.9,
+        "proteins_per_100g": 2.2,
+        "fat_per_100g": 0.1
+    },
+    "cauliflower": {
+        "energy_kcal_per_100g": 25,
+        "carbohydrates_per_100g": 5,
+        "proteins_per_100g": 2,
+        "fat_per_100g": 0.3
+    },
+    "mushrooms": {
+        "energy_kcal_per_100g": 22,
+        "carbohydrates_per_100g": 3.3,
+        "proteins_per_100g": 3.1,
+        "fat_per_100g": 0.3
+    },
+    "bell_pepper": {
+        "energy_kcal_per_100g": 31,
+        "carbohydrates_per_100g": 6,
+        "proteins_per_100g": 1,
+        "fat_per_100g": 0.3
+    },
+    "onion": {
+        "energy_kcal_per_100g": 40,
+        "carbohydrates_per_100g": 9,
+        "proteins_per_100g": 1.1,
+        "fat_per_100g": 0.1
+    },
+    "garlic": {
+        "energy_kcal_per_100g": 149,
+        "carbohydrates_per_100g": 33,
+        "proteins_per_100g": 6.4,
+        "fat_per_100g": 0.5
+    },
+    "ginger": {
+        "energy_kcal_per_100g": 80,
+        "carbohydrates_per_100g": 18,
+        "proteins_per_100g": 1.8,
+        "fat_per_100g": 0.8
+    },
+    "sweet_corn": {
+        "energy_kcal_per_100g": 86,
+        "carbohydrates_per_100g": 19,
+        "proteins_per_100g": 3.2,
+        "fat_per_100g": 1.2
+    },
+    "cabbage": {
+        "energy_kcal_per_100g": 25,
+        "carbohydrates_per_100g": 6,
+        "proteins_per_100g": 1.3,
+        "fat_per_100g": 0.1
+    },
+    "brussels_sprouts": {
+        "energy_kcal_per_100g": 43,
+        "carbohydrates_per_100g": 9,
+        "proteins_per_100g": 3.4,
+        "fat_per_100g": 0.3
+    },
+    "yogurt_greek": {
+        "energy_kcal_per_100g": 59,
+        "carbohydrates_per_100g": 3.6,
+        "proteins_per_100g": 10,
+        "fat_per_100g": 0.4
+    },
+    "protein_powder": {
+        "energy_kcal_per_100g": 370,
+        "carbohydrates_per_100g": 6,
+        "proteins_per_100g": 80,
+        "fat_per_100g": 3
+    },
+    "protein_bar": {
+        "energy_kcal_per_100g": 350,
+        "carbohydrates_per_100g": 30,
+        "proteins_per_100g": 25,
+        "fat_per_100g": 10
+    },
+    "ice_cream": {
+        "energy_kcal_per_100g": 207,
+        "carbohydrates_per_100g": 24,
+        "proteins_per_100g": 3.5,
+        "fat_per_100g": 11
+    },
+    "french_fries": {
+        "energy_kcal_per_100g": 312,
+        "carbohydrates_per_100g": 41,
+        "proteins_per_100g": 3.4,
+        "fat_per_100g": 15
+    },
+    "pizza": {
+        "energy_kcal_per_100g": 266,
+        "carbohydrates_per_100g": 33,
+        "proteins_per_100g": 11,
+        "fat_per_100g": 10
+    },
+    "hamburger": {
+        "energy_kcal_per_100g": 295,
+        "carbohydrates_per_100g": 30,
+        "proteins_per_100g": 17,
+        "fat_per_100g": 14
+    },
+    "amul paneer": {
+        "name": "Amul Paneer",
+        "brand": "Amul",
+        "category": "milk soids",
+        "barcode_photo": "barcode_WhatsApp Image 2025-04-26 at 11.58.51 (2).jpeg",
+        "ingredient_photo": "ingredient_WhatsApp Image 2025-04-26 at 11.58.51 (2).jpeg"
+    }
+}
