@@ -9,4 +9,4 @@ class Config:
     SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:Prashant@localhost:3306/new_schema'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = 'your_secret_key'
-    hello =  "hello"
+    hello =  "hell"
