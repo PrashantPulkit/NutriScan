@@ -19,6 +19,7 @@ from nltk import word_tokenize, pos_tag, ne_chunk
 from app.models import get_db_connection
 from app.models import db , User
 
+from .AdminRoutes import my_routes
 
 '''
 # MongoDB setup
@@ -30,6 +31,7 @@ alt_collection = db['alternative_products']
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config.Config')
+    app.register_blueprint(my_routes)
 
 
     db.init_app(app)
